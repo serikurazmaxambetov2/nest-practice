@@ -46,4 +46,4 @@ docker compose up -d
 
 ### Демо
 
-![1.jpg](1.jpg)
+![1.jpg](demo/1.jpg)
