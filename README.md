@@ -41,6 +41,8 @@ docker compose up -d
 
 ### Демо:
 
+Демо [сайт](http://212.109.220.44/api/v1/docs)
+
 ![1.png](demo/1.png)
 ![2.png](demo/2.png)
 ![3.png](demo/3.png)
