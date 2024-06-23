@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import { IsOptional, IsString, IsUUID } from 'class-validator';
 
 export class GenerateGptRequestDto {
-  @ApiProperty({ format: 'uuid' })
+  @ApiProperty({ format: 'uuid', required: false })
   @IsOptional()
   @IsUUID('4', { message: 'Контекст должен быть uuid v4' })
   contextId: string;
