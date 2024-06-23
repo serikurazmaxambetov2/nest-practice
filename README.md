@@ -21,3 +21,28 @@ docker compose up
 ```sh
 docker compose up -d
 ```
+
+и открываете [ссылку](http://localhost:8081/docs)
+
+## Текущий проект
+
+Простое взаимодействие с `chatgpt` через g4f (`gpt4free`), с сохранением контекста
+
+## Стэк технологий:
+
+- NestJS
+  - Swagger
+  - Валидация
+- Docker
+  - Docker Compose
+  - Docker Ignore
+- ChatGPT
+  - g4f
+
+### Демо:
+
+![1.png](demo/1.png)
+![2.png](demo/2.png)
+![3.png](demo/3.png)
+![4.png](demo/4.png)
+![5.png](demo/5.png)

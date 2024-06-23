@@ -7,4 +7,4 @@ RUN yarn
 
 COPY . .
 
-CMD yarn build && yarn start:prod
+CMD yarn build && yarn typeorm migration:run && yarn start:prod
