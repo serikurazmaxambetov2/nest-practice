@@ -46,4 +46,6 @@ docker compose up -d
 
 ### Демо
 
+Демо [сайт](http://212.109.220.44/api/v2/docs)
+
 ![1.jpg](demo/1.jpg)
