@@ -3,6 +3,10 @@
 /node_modules
 /build
 
+# Python files
+venv
+__pycache__
+
 # Logs
 logs
 *.log

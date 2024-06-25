@@ -9,8 +9,8 @@
 
 ## Как запускать проекты?
 
-Во всех моих проектах присутствует Docker, Docker Compose.
-И поэтому запуск выглядит так:
+Сначала создайте `.env` файл (пример `.env.example`),
+затем запускаете docker compose:
 
 ```sh
 docker compose up
@@ -21,3 +21,26 @@ docker compose up
 ```sh
 docker compose up -d
 ```
+
+и открываете [ссылку](http://localhost:8081/docs)
+
+## Текущий проект
+
+MathTest - api, который парсит данные с сайта [test-uz.ru](https://www.test-uz.ru/sbornik.php?cat=maths), если быть точнее то каталог математики, и на основе этих данных создается api.
+
+Парсинг происходит через Python, а апи на Nest.JS.
+Подробнее про парсинг в scraper/README.md.
+
+## Стэк технологий:
+
+- NestJS
+  - Валидация
+  - Swagger
+  - Пагинация
+- Docker
+  - Docker Compose
+  - Docker Ignore
+- Парсинг
+  - Python
+    - Асинхронный парсинг
+    - Обход блокировки через несколько проксей
