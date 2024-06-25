@@ -9,5 +9,7 @@ services:
   postgres:
     image: postgres
     restart: always
+    volumes:
+      - pgdata:/var/lib/postgresql/data
     env_file:
       - .env
